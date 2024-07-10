@@ -25,7 +25,7 @@ SESSION_CONFIGS = [
     dict(
         name='encoding',
         app_sequence=[
-            'Encoding'
+            'encoding'
         ],
         num_demo_participants=2,
     ),
