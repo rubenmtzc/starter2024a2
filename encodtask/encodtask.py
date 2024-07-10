@@ -41,9 +41,6 @@ class Player(BasePlayer):
         self.endowment = C.ENDOWMENT
         self.cost_per_ticket = C.COST_PER_TICKET[self.id_in_group]
 
-# PAGES
-class Intro(Page):
-    @staticmethod
-    def is_displayed(player):
-        return player.round_number == 1
+#
+
 
