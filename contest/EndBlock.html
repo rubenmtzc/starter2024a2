@@ -1,9 +1,18 @@
 {{ block title }}
-    EndBlock
+    End block
 {{ endblock }}
+
 {{ block content }}
 
-    {{ formfields }}
-    {{ next_button }}
+{{ for rd in player.in_all_rounds }}
+<p>
+    Tickets: {{ rd.tickets_purchased }};
+    Won: {{ rd.is_winner }};
+    Earnings: {{ rd.earnings }};
+    Is paid: {{ rd.subsession.is_paid }}.
+</p>
+{{ endfor }}
 
+
+    {{ next_button }}
 {{ endblock }}
