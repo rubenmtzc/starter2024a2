@@ -61,8 +61,7 @@ class Group(BaseGroup):
 class Player(BasePlayer):
     endowment = models.IntegerField()
     cost_per_ticket = models.IntegerField()
-    tickets_purchased = models.IntegerField()
-    is_winner = models.BooleanField()
+    tickets_purchased = models.IntegerField()    is_winner = models.BooleanField()
     earnings = models.IntegerField()
 
     def setup(self):

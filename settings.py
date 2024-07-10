@@ -22,6 +22,13 @@ SESSION_CONFIGS = [
         ],
         num_demo_participants=4,
     ),
+    dict(
+        name='encoding',
+        app_sequence=[
+            'Encoding'
+        ],
+        num_demo_participants=2,
+    ),
 ]
 
 # if you set a property in SESSION_CONFIG_DEFAULTS, it will be inherited by all configs
