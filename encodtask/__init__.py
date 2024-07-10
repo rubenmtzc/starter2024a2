@@ -15,7 +15,7 @@ An encoding task made by me
 """
 
 class C(BaseConstants):
-    NAME_IN_URL = "encode"
+    NAME_IN_URL = "encodtask"
     PLAYERS_PER_GROUP = 1
     NUM_ROUNDS = 1
     ENDOWMENT = 1
